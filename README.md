@@ -12,8 +12,8 @@ Zusatz-Info: LowPoly-Game
 
 Tobias Haas: Programmierung und KI
 
-Christina Poguter: Grafik, MAP-Design, Story, Blender und Programmierung
+Christina Poguter: Story, Grfaik und Programmierung
 
-Stefan Rautner: Projektleiter, Blender, Programmierung und Datenbank
+Stefan Rautner: Projektleiter, Programmierung, Grafik und Datenbank
 
 Patrick Thor: Programmierung, Grafik und KI
