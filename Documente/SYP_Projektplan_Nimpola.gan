@@ -46,14 +46,14 @@
             <task id="3" name="GUI Menü" color="#00cc33" meeting="false" start="2023-02-10" duration="2" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="4" name="Funktionen" color="#0000ff" meeting="false" start="2023-03-15" duration="6" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="4" name="Funktionen" color="#0000ff" meeting="false" start="2023-03-15" duration="6" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <task id="6" name="Spiel starten" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
                 <task id="14" name="Spiel laden" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2023-02-17" thirdDate-constraint="0" expand="true"/>
                 <task id="16" name="Spiel beenden" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2023-02-17" thirdDate-constraint="0" expand="true"/>
                 <task id="15" name="Einstellungen" color="#8cb6ce" meeting="false" start="2023-03-15" duration="6" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="31" name="KI" color="#ccccff" meeting="false" start="2023-03-22" duration="20" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+        <task id="31" name="KI" color="#ccccff" meeting="false" start="2023-03-22" duration="20" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
             <task id="32" name="NPCs" color="#00cc33" meeting="false" start="2023-03-22" duration="16" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <task id="34" name="GegnerKI" color="#8cb6ce" meeting="false" start="2023-03-22" duration="10" complete="0" thirdDate="2023-03-03" thirdDate-constraint="0" expand="true">
                     <depend id="36" type="2" difference="0" hardness="Strong"/>
@@ -74,8 +74,8 @@
                 <task id="81" name="Handeln" color="#8cb6ce" meeting="false" start="2023-05-17" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="17" name="Spielkarte" color="#ff6666" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="18" name="Design" color="#00cc33" meeting="false" start="2023-02-08" duration="10" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+        <task id="17" name="Spielkarte" color="#ff6666" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+            <task id="18" name="Design" color="#00cc33" meeting="false" start="2023-02-08" duration="10" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <task id="82" name="Spieler" color="#8cb6ce" meeting="false" start="2023-03-01" duration="4" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true">
                     <depend id="83" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -93,7 +93,7 @@
                     <depend id="28" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="19" name="Funktionen" color="#0000ff" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="19" name="Funktionen" color="#0000ff" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <task id="41" name="SpawnPoints erstellen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="2" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true">
                     <depend id="83" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -108,7 +108,7 @@
                 </task>
             </task>
         </task>
-        <task id="45" name="Inventarsystem" color="#00ffff" meeting="false" start="2023-04-12" duration="12" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+        <task id="45" name="Inventarsystem" color="#00ffff" meeting="false" start="2023-04-12" duration="12" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
             <task id="46" name="GUI" color="#00cc33" meeting="false" start="2023-04-12" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <task id="69" name="Inventar" color="#8cb6ce" meeting="false" start="2023-04-12" duration="4" complete="0" thirdDate="2023-03-10" thirdDate-constraint="0" expand="true">
                     <depend id="70" type="2" difference="0" hardness="Strong"/>
@@ -119,11 +119,11 @@
                 <task id="70" name="Inventar Funktionen" color="#8cb6ce" meeting="false" start="2023-04-26" duration="8" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="71" name="Assets" color="#00cccc" meeting="false" start="2023-03-01" duration="24" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+        <task id="71" name="Assets" color="#00cccc" meeting="false" start="2023-03-01" duration="24" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
             <task id="72" name="Items" color="#8cb6ce" meeting="false" start="2023-03-01" duration="8" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
             <task id="73" name="Objekte" color="#8cb6ce" meeting="false" start="2023-04-26" duration="8" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="75" name="Datenbank" color="#330066" meeting="false" start="2023-02-10" duration="34" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+        <task id="75" name="Datenbank" color="#330066" meeting="false" start="2023-02-10" duration="34" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
             <task id="77" name="Datenbank erstellen" color="#8cb6ce" meeting="false" start="2023-02-10" duration="4" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true" cost-manual-value="100.0" cost-calculated="false">
                 <depend id="78" type="2" difference="0" hardness="Strong"/>
             </task>
