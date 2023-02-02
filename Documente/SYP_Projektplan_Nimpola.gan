@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SYP_Projekt_Nimpola" company="HTL-Saalfelden" webLink="http://" view-date="2023-01-04" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="de_DE">
+<?xml version="1.0" encoding="UTF-8"?><project name="SYP_Projekt_Nimpola" company="HTL-Saalfelden" webLink="http://" view-date="2023-01-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="de_DE">
     <description>
         <![CDATA[Syp-Projekt, Zeitplan, Gruppe 7 3AHINF, 2022-2023]]>
     </description>
-    <view zooming-state="default:0" id="gantt-chart">
+    <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Vorgang" width="200" order="0"/>
         <field id="tpd4" name="Anfang" width="75" order="1"/>
         <field id="tpd5" name="Ende" width="75" order="2"/>
@@ -42,101 +42,99 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Menü" color="#cccc00" meeting="false" start="2023-01-25" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="3" name="GUI Menü" color="#00cc33" meeting="false" start="2023-01-25" duration="2" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
-                <depend id="40" type="2" difference="0" hardness="Strong"/>
+        <task id="0" name="Menü" color="#cccc00" meeting="false" start="2023-02-10" duration="15" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+            <task id="3" name="GUI Menü" color="#00cc33" meeting="false" start="2023-02-10" duration="2" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="4" name="Funktionen" color="#0000ff" meeting="false" start="2023-03-08" duration="6" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                <task id="6" name="Spiel starten" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
-                <task id="14" name="Spiel laden" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-02-17" thirdDate-constraint="0" expand="true"/>
-                <task id="16" name="Spiel beenden" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-02-17" thirdDate-constraint="0" expand="true"/>
-                <task id="15" name="Einstellungen" color="#8cb6ce" meeting="false" start="2023-03-08" duration="6" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Funktionen" color="#0000ff" meeting="false" start="2023-03-15" duration="6" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+                <task id="6" name="Spiel starten" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
+                <task id="14" name="Spiel laden" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2023-02-17" thirdDate-constraint="0" expand="true"/>
+                <task id="16" name="Spiel beenden" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2023-02-17" thirdDate-constraint="0" expand="true"/>
+                <task id="15" name="Einstellungen" color="#8cb6ce" meeting="false" start="2023-03-15" duration="6" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="31" name="KI" color="#ccccff" meeting="false" start="2023-02-01" duration="32" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="17" name="Spielkarte" color="#ff6666" meeting="false" start="2023-02-01" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                <task id="18" name="Design" color="#00cc33" meeting="false" start="2023-02-01" duration="10" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                    <task id="40" name="Spawn" color="#8cb6ce" meeting="false" start="2023-02-01" duration="2" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true">
-                        <depend id="20" type="2" difference="0" hardness="Strong"/>
-                        <depend id="41" type="2" difference="0" hardness="Strong"/>
-                        <depend id="77" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="82" name="Spieler" color="#8cb6ce" meeting="false" start="2023-02-22" duration="4" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true">
-                        <depend id="83" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="20" name="Terrain erstellen/designen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
-                        <depend id="25" type="2" difference="0" hardness="Strong"/>
-                        <depend id="27" type="2" difference="0" hardness="Strong"/>
-                        <depend id="72" type="2" difference="0" hardness="Strong"/>
-                        <depend id="82" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="25" name="Dörfer erstellen" color="#8cb6ce" meeting="false" start="2023-02-22" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
-                        <depend id="6" type="2" difference="0" hardness="Strong"/>
-                        <depend id="14" type="2" difference="0" hardness="Strong"/>
-                        <depend id="15" type="2" difference="0" hardness="Strong"/>
-                        <depend id="16" type="2" difference="0" hardness="Strong"/>
-                        <depend id="28" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="19" name="Funktionen" color="#0000ff" meeting="false" start="2023-02-08" duration="16" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                    <task id="41" name="SpawnPoints erstellen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="4" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true"/>
-                    <task id="83" name="Spieler funktionen" color="#8cb6ce" meeting="false" start="2023-03-08" duration="8" complete="0" thirdDate="2023-02-24" thirdDate-constraint="0" expand="true">
-                        <depend id="69" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="27" name="Interaktionen Umwelt" color="#8cb6ce" meeting="false" start="2023-02-22" duration="8" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
-                        <depend id="34" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="28" name="Interaktionen Dörfer" color="#8cb6ce" meeting="false" start="2023-03-08" duration="8" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
-                        <depend id="35" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-            </task>
-            <task id="32" name="NPCs" color="#00cc33" meeting="false" start="2023-03-22" duration="14" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+        <task id="31" name="KI" color="#ccccff" meeting="false" start="2023-03-22" duration="20" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="32" name="NPCs" color="#00cc33" meeting="false" start="2023-03-22" duration="16" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                 <task id="34" name="GegnerKI" color="#8cb6ce" meeting="false" start="2023-03-22" duration="10" complete="0" thirdDate="2023-03-03" thirdDate-constraint="0" expand="true">
                     <depend id="36" type="2" difference="0" hardness="Strong"/>
                     <depend id="37" type="2" difference="0" hardness="Strong"/>
                     <depend id="38" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="35" name="FreundeKI" color="#8cb6ce" meeting="false" start="2023-04-05" duration="10" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                <task id="35" name="FreundeKI" color="#8cb6ce" meeting="false" start="2023-04-12" duration="10" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
                     <depend id="36" type="2" difference="0" hardness="Strong"/>
                     <depend id="37" type="2" difference="0" hardness="Strong"/>
                     <depend id="38" type="2" difference="0" hardness="Strong"/>
                     <depend id="81" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="33" name="Funktionen" color="#0000ff" meeting="false" start="2023-05-10" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                <task id="36" name="Angriff" color="#8cb6ce" meeting="false" start="2023-05-10" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
-                <task id="37" name="Verteidigung" color="#8cb6ce" meeting="false" start="2023-05-10" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
-                <task id="38" name="Tod" color="#8cb6ce" meeting="false" start="2023-05-10" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
-                <task id="81" name="Handeln" color="#8cb6ce" meeting="false" start="2023-05-10" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="Funktionen" color="#0000ff" meeting="false" start="2023-05-17" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+                <task id="36" name="Angriff" color="#8cb6ce" meeting="false" start="2023-05-17" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
+                <task id="37" name="Verteidigung" color="#8cb6ce" meeting="false" start="2023-05-17" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
+                <task id="38" name="Tod" color="#8cb6ce" meeting="false" start="2023-05-17" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
+                <task id="81" name="Handeln" color="#8cb6ce" meeting="false" start="2023-05-17" duration="4" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="45" name="Inventarsystem" color="#00ffff" meeting="false" start="2023-04-05" duration="12" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="46" name="GUI" color="#00cc33" meeting="false" start="2023-04-05" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                <task id="69" name="Inventar" color="#8cb6ce" meeting="false" start="2023-04-05" duration="4" complete="0" thirdDate="2023-03-10" thirdDate-constraint="0" expand="true">
+        <task id="17" name="Spielkarte" color="#ff6666" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="18" name="Design" color="#00cc33" meeting="false" start="2023-02-08" duration="10" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+                <task id="82" name="Spieler" color="#8cb6ce" meeting="false" start="2023-03-01" duration="4" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true">
+                    <depend id="83" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="20" name="Terrain erstellen/designen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="6" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                    <depend id="72" type="2" difference="0" hardness="Strong"/>
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="Dörfer erstellen" color="#8cb6ce" meeting="false" start="2023-03-01" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="19" name="Funktionen" color="#0000ff" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+                <task id="41" name="SpawnPoints erstellen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="2" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true">
+                    <depend id="83" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="83" name="Spieler funktionen" color="#8cb6ce" meeting="false" start="2023-03-15" duration="8" complete="0" thirdDate="2023-02-24" thirdDate-constraint="0" expand="true">
+                    <depend id="69" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" name="Interaktionen Umwelt" color="#8cb6ce" meeting="false" start="2023-03-01" duration="6" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="28" name="Interaktionen Dörfer" color="#8cb6ce" meeting="false" start="2023-03-15" duration="8" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="45" name="Inventarsystem" color="#00ffff" meeting="false" start="2023-04-12" duration="12" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="46" name="GUI" color="#00cc33" meeting="false" start="2023-04-12" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                <task id="69" name="Inventar" color="#8cb6ce" meeting="false" start="2023-04-12" duration="4" complete="0" thirdDate="2023-03-10" thirdDate-constraint="0" expand="true">
                     <depend id="70" type="2" difference="0" hardness="Strong"/>
                     <depend id="73" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="47" name="Funktionen" color="#0000ff" meeting="false" start="2023-04-19" duration="8" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-                <task id="70" name="Inventar Funktionen" color="#8cb6ce" meeting="false" start="2023-04-19" duration="8" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="Funktionen" color="#0000ff" meeting="false" start="2023-04-26" duration="8" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                <task id="70" name="Inventar Funktionen" color="#8cb6ce" meeting="false" start="2023-04-26" duration="8" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="71" name="Assets" color="#00cccc" meeting="false" start="2023-02-22" duration="24" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="72" name="Items" color="#8cb6ce" meeting="false" start="2023-02-22" duration="8" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
-            <task id="73" name="Objekte" color="#8cb6ce" meeting="false" start="2023-04-19" duration="8" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" expand="true"/>
+        <task id="71" name="Assets" color="#00cccc" meeting="false" start="2023-03-01" duration="24" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="72" name="Items" color="#8cb6ce" meeting="false" start="2023-03-01" duration="8" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
+            <task id="73" name="Objekte" color="#8cb6ce" meeting="false" start="2023-04-26" duration="8" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="75" name="Datenbank" color="#330066" meeting="false" start="2023-02-08" duration="34" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="77" name="Datenbank erstellen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="4" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true" cost-manual-value="100.0" cost-calculated="false">
+        <task id="75" name="Datenbank" color="#330066" meeting="false" start="2023-02-10" duration="34" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
+            <task id="77" name="Datenbank erstellen" color="#8cb6ce" meeting="false" start="2023-02-10" duration="4" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true" cost-manual-value="100.0" cost-calculated="false">
                 <depend id="78" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="78" name="Datenbank verwalten/üpdaten" color="#8cb6ce" meeting="false" start="2023-02-22" duration="30" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+            <task id="78" name="Datenbank verwalten/üpdaten" color="#8cb6ce" meeting="false" start="2023-02-24" duration="30" complete="0" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
         </task>
-        <task id="76" name="Story" color="#999999" meeting="false" start="2023-01-13" duration="7" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="false">
-            <task id="80" name="End Cutscene" color="#8cb6ce" meeting="false" start="2023-01-25" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
-            <task id="79" name="Anfangs Cutscene" color="#8cb6ce" meeting="false" start="2023-01-25" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
-            <task id="84" name="Dialog" color="#8cb6ce" meeting="false" start="2023-01-13" duration="1" complete="0" thirdDate="2023-01-13" thirdDate-constraint="0" expand="true"/>
+        <task id="76" name="Story" color="#999999" meeting="false" start="2023-02-10" duration="33" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+            <task id="84" name="Dialog" color="#8cb6ce" meeting="false" start="2023-02-10" duration="4" complete="0" thirdDate="2023-01-13" thirdDate-constraint="0" expand="true"/>
+            <task id="79" name="Anfangs Cutscene" color="#8cb6ce" meeting="false" start="2023-03-29" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
+            <task id="80" name="End Cutscene" color="#8cb6ce" meeting="false" start="2023-05-24" duration="4" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true"/>
         </task>
+        <task id="88" name="Projektcontrolling" color="#8cb6ce" meeting="false" start="2023-02-10" duration="34" complete="0" thirdDate="2023-01-04" thirdDate-constraint="0" expand="true"/>
         <task id="86" name="Zwischenpresentation" color="#8cb6ce" meeting="true" start="2023-03-31" duration="0" complete="0" thirdDate="2023-03-08" thirdDate-constraint="0" expand="true"/>
         <task id="85" name="Ende" color="#8cb6ce" meeting="true" start="2023-06-14" duration="0" complete="0" thirdDate="2023-03-08" thirdDate-constraint="0" expand="true"/>
     </tasks>
@@ -147,13 +145,13 @@
         <resource id="3" name="Patrick Thor" function="SoftwareDevelopment:2" contacts="" phone=""/>
     </resources>
     <allocations>
-        <allocation task-id="70" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="80.0"/>
-        <allocation task-id="81" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="20.0"/>
-        <allocation task-id="38" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="40.0"/>
-        <allocation task-id="37" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="40.0"/>
-        <allocation task-id="36" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="40.0"/>
-        <allocation task-id="35" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="90.0"/>
-        <allocation task-id="34" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="90.0"/>
+        <allocation task-id="70" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="90.0"/>
+        <allocation task-id="81" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="80.0"/>
+        <allocation task-id="38" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="10.0"/>
+        <allocation task-id="37" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="20.0"/>
+        <allocation task-id="36" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="20.0"/>
+        <allocation task-id="35" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="10.0"/>
+        <allocation task-id="34" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="70.0"/>
         <allocation task-id="6" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="20.0"/>
         <allocation task-id="14" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="20.0"/>
         <allocation task-id="16" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="20.0"/>
@@ -161,51 +159,40 @@
         <allocation task-id="41" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="30.0"/>
         <allocation task-id="83" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="80.0"/>
         <allocation task-id="27" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="60.0"/>
-        <allocation task-id="28" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="40.0"/>
-        <allocation task-id="72" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="20.0"/>
-        <allocation task-id="73" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="80.0"/>
+        <allocation task-id="72" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="40.0"/>
+        <allocation task-id="73" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="60.0"/>
         <allocation task-id="80" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
-        <allocation task-id="79" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="79" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="70.0"/>
         <allocation task-id="84" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
         <allocation task-id="69" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="60.0"/>
-        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="60.0"/>
-        <allocation task-id="40" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="15.0"/>
-        <allocation task-id="82" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="15.0"/>
-        <allocation task-id="20" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="50.0"/>
-        <allocation task-id="25" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="50.0"/>
+        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="80.0"/>
+        <allocation task-id="82" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="70.0"/>
+        <allocation task-id="20" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="90.0"/>
+        <allocation task-id="25" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="70.0"/>
+        <allocation task-id="28" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="50.0"/>
         <allocation task-id="77" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="78" resource-id="2" function="Default:1" responsible="true" load="25.0"/>
-        <allocation task-id="72" resource-id="2" function="Default:1" responsible="false" load="20.0"/>
-        <allocation task-id="73" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="2" function="Default:1" responsible="true" load="35.0"/>
+        <allocation task-id="72" resource-id="2" function="Default:1" responsible="false" load="30.0"/>
+        <allocation task-id="73" resource-id="2" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:1" responsible="false" load="60.0"/>
+        <allocation task-id="83" resource-id="2" function="Default:1" responsible="false" load="30.0"/>
+        <allocation task-id="20" resource-id="2" function="Default:1" responsible="false" load="80.0"/>
         <allocation task-id="69" resource-id="2" function="Default:1" responsible="false" load="30.0"/>
-        <allocation task-id="15" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="20" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="25" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="41" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="83" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="27" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="28" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
-        <allocation task-id="72" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
-        <allocation task-id="73" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
-        <allocation task-id="70" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="40.0"/>
-        <allocation task-id="81" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="70" resource-id="2" function="Default:1" responsible="false" load="20.0"/>
+        <allocation task-id="88" resource-id="2" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="81" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="40.0"/>
         <allocation task-id="38" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="37" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="36" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="37" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
+        <allocation task-id="36" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
         <allocation task-id="35" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="34" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
-        <allocation task-id="6" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="14" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="16" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="34" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="40.0"/>
         <allocation task-id="15" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
-        <allocation task-id="40" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="82" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="20" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="30.0"/>
-        <allocation task-id="25" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="30.0"/>
-        <allocation task-id="41" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
-        <allocation task-id="83" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
+        <allocation task-id="82" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="40.0"/>
+        <allocation task-id="25" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="65.0"/>
+        <allocation task-id="83" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="40.0"/>
         <allocation task-id="27" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
-        <allocation task-id="28" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="20.0"/>
+        <allocation task-id="70" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="30.0"/>
     </allocations>
     <vacations/>
     <previous/>
