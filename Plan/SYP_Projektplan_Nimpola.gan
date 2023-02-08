@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SYP_Projekt_Nimpola" company="HTL-Saalfelden" webLink="http://" view-date="2023-01-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="de_DE">
+<?xml version="1.0" encoding="UTF-8"?><project name="SYP_Projekt_Nimpola" company="HTL-Saalfelden" webLink="http://" view-date="2023-01-30" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="de_DE">
     <description>
         <![CDATA[Syp-Projekt, Zeitplan, Gruppe 7 3AHINF, 2022-2023]]>
     </description>
-    <view zooming-state="default:8" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Vorgang" width="200" order="0"/>
         <field id="tpd4" name="Anfang" width="75" order="1"/>
         <field id="tpd5" name="Ende" width="75" order="2"/>
@@ -93,8 +93,8 @@
                     <depend id="28" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="19" name="Funktionen" color="#0000ff" meeting="false" start="2023-02-08" duration="18" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
-                <task id="41" name="SpawnPoints erstellen" color="#8cb6ce" meeting="false" start="2023-02-08" duration="2" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Funktionen" color="#0000ff" meeting="false" start="2023-03-01" duration="12" complete="0" thirdDate="2023-01-25" thirdDate-constraint="0" expand="true">
+                <task id="41" name="SpawnPoints erstellen" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true">
                     <depend id="83" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="83" name="Spieler funktionen" color="#8cb6ce" meeting="false" start="2023-03-15" duration="8" complete="0" thirdDate="2023-02-24" thirdDate-constraint="0" expand="true">
