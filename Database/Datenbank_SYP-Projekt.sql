@@ -1,18 +1,23 @@
-CREATE DATABASE IF NOT EXISTS speicher;
-USE speicher;
+CREATE DATABASE IF NOT EXISTS speicher_DB;
+USE speicher_DB;
 
 CREATE TABLE IF NOT EXISTS Player (
-`spielerid` INT(4) NOT NULL,
-`inventoryid` INT(4) NOT NULL,
-PRIMARY KEY (spielerid),
-CONSTRAINT FK_Inventory FOREIGN KEY (inventoryid) REFERENCES Inventory(inventoryid) ON DELETE SET NULL);
+`spielerID` INT(4) NOT NULL AUTO_INCREMENT,
+`inventoryID` INT(4) NOT NULL,
+`xkoord` FLOAT(8) NOT NULL,
+`ykoord` FLOAT(8) NOT NULL,
+PRIMARY KEY (spielerID),
+CONSTRAINT FK_inventoryID FOREIGN KEY (inventoryID) REFERENCES Inventory(inventoryID));
 
 CREATE TABLE IF NOT EXISTS Items (
-`id` INT(4) NOT NULL,
+`ID` INT(4) NOT NULL AUTO_INCREMENT,
 `name` VARCHAR(20) NOT NULL,
 PRIMARY KEY (id));
 
 CREATE TABLE IF NOT EXISTS Inventory (
-`inventoryid` INT(4) NOT NULL,
-PRIMARY KEY (inventoryid));
-
+`inventoryID` INT(4) NOT NULL AUTO_INCREMENT,
+`itemID` INT(4) NOT NULL,
+`ykoord` FLOAT(8) NOT NULL,
+`xkoord` FLOAT(8) NOT NULL,
+PRIMARY KEY (inventoryid),
+CONSTRAINT FK_item FOREIGN KEY (itemID) REFERENCES Items(ID));
