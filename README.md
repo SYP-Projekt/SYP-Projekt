@@ -12,7 +12,7 @@ Zusatz-Info: LowPoly-Game
 
 Tobias Haas: Programmierung
 
-Christina Poguter: Story, Grfaik und Programmierung
+Christina Poguter: Story, Grafik und Programmierung
 
 Stefan Rautner: Projektleiter, Programmierung, Grafik und Datenbank
 
