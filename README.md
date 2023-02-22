@@ -6,8 +6,6 @@ Programmiersprache: C#
 
 Programmierumgebung: Unity 3D (Version: 2021.3.11f1)
 
-Zusatz-Info: LowPoly-Game
-
 ---
 
 Tobias Haas: Programmierung
