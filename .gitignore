@@ -1,6 +1,6 @@
-# This .gitignore file should be placed at the root of your Unity project directory
+# Copyright Github
 #
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /[Pp]rogramming/[Uu]nity/[Ll]ibrary/
 /[Pp]rogramming/[Uu]nity/[Tt]emp/
