@@ -72,4 +72,4 @@
 /[Pp]rogramming/[Uu]nity/[Aa]ssets/[Ss]treamingAssets/aa/*
 
 #Fuer die fertigen Scripts
-/[Pp]rogramming/[Pp]rogrammingScripts/*/*.cs.meta
+/[Pp]rogramming/[Pp]rogramming[Ss]cripts/*/*.cs.meta
