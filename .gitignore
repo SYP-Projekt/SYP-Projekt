@@ -51,7 +51,6 @@
 /[Pp]rogramming/[Uu]nity/*.pidb.meta
 /[Pp]rogramming/[Uu]nity/*.pdb.meta
 /[Pp]rogramming/[Uu]nity/*.mdb.meta
-#/[Pp]rogramming/[Uu]nity/*/*.meta
 
 # Unity3D generated file on crash reports
 /[Pp]rogramming/[Uu]nity/sysinfo.txt
@@ -71,6 +70,9 @@
 # Temporary auto-generated Android Assets
 /[Pp]rogramming/[Uu]nity/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Pp]rogramming/[Uu]nity/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Meta Documents
+/[Pp]rogramming/[Uu]nity/*.meta
 
 #For the finished Scripts
 /[Pp]rogramming/[Pp]rogramming[Ss]cripts/*/*.meta
