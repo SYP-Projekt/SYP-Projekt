@@ -51,7 +51,7 @@
 /[Pp]rogramming/[Uu]nity/*.pidb.meta
 /[Pp]rogramming/[Uu]nity/*.pdb.meta
 /[Pp]rogramming/[Uu]nity/*.mdb.meta
-/[Pp]rogramming/[Uu]nity/*/*.meta
+#/[Pp]rogramming/[Uu]nity/*/*.meta
 
 # Unity3D generated file on crash reports
 /[Pp]rogramming/[Uu]nity/sysinfo.txt
