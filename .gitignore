@@ -71,7 +71,7 @@
 /[Pp]rogramming/[Uu]nity/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Pp]rogramming/[Uu]nity/[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Meta Documents
+#Delete meta files
 /[Pp]rogramming/[Uu]nity/*/*.meta
 /[Pp]rogramming/[Uu]nity/*/*/*.meta
 /[Pp]rogramming/[Uu]nity/*/*/*/*.meta
