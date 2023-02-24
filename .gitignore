@@ -73,6 +73,9 @@
 
 # Meta Documents
 /[Pp]rogramming/[Uu]nity/*/*.meta
+/[Pp]rogramming/[Uu]nity/*/*/*.meta
+/[Pp]rogramming/[Uu]nity/*/*/*/*.meta
+/[Pp]rogramming/[Uu]nity/*/*/*/*/*.meta
 
 #For the finished Scripts
 /[Pp]rogramming/[Pp]rogramming[Ss]cripts/*/*.meta
