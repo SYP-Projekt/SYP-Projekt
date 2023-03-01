@@ -1,5 +1,7 @@
-<p style="text-align:center;"><img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72></p>
-<h3 align="center">Logo</h3>
+<p align="center">
+    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+    <h3>Logo</h3>
+</p>
 
 
 ## Table of contents
