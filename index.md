@@ -3,10 +3,10 @@
 
 ## Inhalt
 
-- [Was ist Nimpola](#was-ist-nimpola)
+- [Was ist Nimpola?](#was-ist-nimpola)
 - [Teammitglieder](#teammitglieder)
 
-## Was ist Nimpola
+## Was ist Nimpola?
 
 Nimpola ist eine Mischung aus:
 
