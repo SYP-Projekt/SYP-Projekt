@@ -8,7 +8,7 @@
 
 ## Was ist Nimpola?
 
-Nimpola ist eine Mischung aus:
+Nimpola ist ein Computerspiel aus den Kategorien:
 
 - Survival
 - Story
