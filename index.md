@@ -1,4 +1,4 @@
-<p style="align:middle;" class="center">
+<p class="center">
     <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
     <h3>Logo</h3>
 </p>
