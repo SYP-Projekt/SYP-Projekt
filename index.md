@@ -1,4 +1,4 @@
-<p style="text-align:centre;"><img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72></p>
+<p style="text-align:center;"><img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72></p>
 <h3 align="center">Logo</h3>
 
 
