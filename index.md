@@ -1,14 +1,11 @@
-<p class="center">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
-    <h3>Logo</h3>
-</p>
+<img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+<center>#Logo</center>
 
 
 ## Table of contents
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [What's included](#whats-included)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
@@ -25,21 +22,6 @@ Some text
 ## Status
 
 Here goes all the budgets
-
-## What's included
-
-Some text
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
 
 ## Creators
 
