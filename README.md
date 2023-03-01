@@ -8,7 +8,7 @@ Programmierumgebung: Unity 3D (Version: 2021.3.19f1)
 
 ---
 
-Tobias Haas: Programmierung
+Tobias Haas: Programmierung, Grafik
 
 Christina Poguter: Story, Grafik und Programmierung
 
