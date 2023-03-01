@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <img src="https://via.placeholder.com/72" width=72 height=72>
 <h1><center>Logo</center></h1>
 
@@ -24,7 +23,6 @@ Nimpola ist eine Mischung aus:
 
 **Hauptsoftwareentwickler**
 
-<<<<<<< HEAD
 - [Tobias Haas](https://github.com/HazeAT)
 
 
