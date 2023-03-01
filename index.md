@@ -1,55 +1,38 @@
-<p align="center">
-  <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72 class="center">
-  </a>
+<img src="https://via.placeholder.com/72" width=72 height=72>
+<h1><center>Logo</center></h1>
 
-  <h3 align="center">Logo</h3>
-</p>
+## Inhaltsangabe
 
-
-## Table of contents
-
-- [Quick start](#quick-start)
-- [Status](#status)
-- [What's included](#whats-included)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
+- [Was ist Nimpola](#was-ist-nimpola)
+- [Teammitglieder](#teammitglieder)
 
 
-## Quick start
+## Was ist Nimpola
 
-Some text
+Nimpola ist eine Mischung aus:
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+- Survival
+- Story
+- Adventure
 
-## Status
 
-Here goes all the budgets
+## Teammitglieder
 
-## What's included
+**Teamleiter**
 
-Some text
+- [Stefan Rautner](https://github.com/StefanRautner)
 
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
 
-## Creators
+**Hauptsoftwareentwickler**
 
-**Creator 1**
+- [Tobias Haas](https://github.com/HazeAT)
 
-- <https://github.com/usernamecreator1>
 
-## Thanks
+**Hauptgrafikdesignerin**
 
-Some Text
+- [Christina Poguter](https://github.com/Chris-tll/)
+
+
+**Softwareentwicklung und Grafik**
+
+- [Patrick Thor](https://github.com/Patho2005Thorick)
