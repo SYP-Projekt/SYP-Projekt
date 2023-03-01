@@ -1,5 +1,5 @@
 <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
-Logo
+<h1>Logo</h1>
 
 
 ## Table of contents
