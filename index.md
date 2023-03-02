@@ -1,5 +1,4 @@
 <img src="https://via.placeholder.com/72" width=72 height=72>
-<h1><center>Nimpola</center></h1>
 
 ## Inhalt
 
