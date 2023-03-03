@@ -48,7 +48,30 @@ body {
     width: 100%;
 }
 
+.home {
+    background-color: rgb(0, 96, 240);
+}
+
 .logo {
     height: 72px;
+    width: 128px;
+}
+
+.person {
+    margin-left: 16px;
+}
+
+.person-border {
+    margin-top: 16px;
+	border: 4px;
+    border-radius: 8px;
+    border-color: black;
+    border-style: solid;
+}
+
+.avatar {
+    margin-left: 16px;
+	border-radius: 50%;
+    height: 128px;
     width: 128px;
 }
