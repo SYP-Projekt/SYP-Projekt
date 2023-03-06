@@ -16,7 +16,7 @@ body {
 
 /* Wird zum stylen des Headers verwendet */
 #navbar {
-    background-color: #f1f1f1;
+    background-color: #575654;
     display: flex;
     text-align: center;
 }
@@ -41,8 +41,7 @@ body {
 
 /* Wird zur Einschrenkung der Größe des Logos verwendet */
 .logo {
-    height: 74px;
-    width: 128px;
+    height: 86px;
 }
 
 /* Wird verwendet, um den Text der Teammitglieder zu zentrieren */
