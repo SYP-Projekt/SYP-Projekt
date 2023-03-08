@@ -18,12 +18,12 @@ PRIMARY KEY(id));
 CREATE TABLE IF NOT EXISTS ItemList (
 `itemListID` INT(1) NOT NULL AUTO_INCREMENT,
 `itemID` INT(2) NOT NULL,
+`anzahl` INT(9) NOT NULL,
 PRIMARY KEY(itemListID),
 CONSTRAINT FK_item FOREIGN KEY (itemID) REFERENCES Items(ID));
 
 CREATE TABLE IF NOT EXISTS Inventory (
 `inventoryID` INT(1) NOT NULL AUTO_INCREMENT,
 `itemListID` INT(1) NOT NULL,
--- Liste, besteht aus items --
 PRIMARY KEY(inventoryid),
 CONSTRAINT FK_item FOREIGN KEY (itemListID) REFERENCES Items(ID));
