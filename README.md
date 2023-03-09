@@ -8,10 +8,10 @@ Programmierumgebung: Unity 3D (Version: 2021.3.19f1)
 
 ---
 
-Tobias Haas: Programmierung, Grafik
+[Tobias Haas](https://github.com/HazeAT): Programmierung, Grafik
 
-Christina Poguter: Story, Grafik und Programmierung
+[Christina Poguter](https://github.com/Chris-tll): Story, Grafik und Programmierung
 
-Stefan Rautner: Projektleiter, Programmierung, Grafik und Datenbank
+[Stefan Rautner](https://github.com/StefanRautner): Projektleiter, Programmierung, Grafik und Datenbank
 
-Patrick Thor: Programmierung, Grafik
+[Patrick Thor](https://github.com/Patho2005Thorick): Programmierung, Grafik
